@@ -1,0 +1,83 @@
+.dockerignore
+  s_3b59c3f628b3a7::t_cefa9f022100e1 1-9
+.env.example
+  s_3b59c3f628b3a7::t_206b6f9f998ca9 1-4
+.gitignore
+  s_3b59c3f628b3a7::t_955a54d602a8a4 1-7
+Dockerfile
+  s_3b59c3f628b3a7::t_c1a2689c28e546 1-27
+Makefile
+  s_3b59c3f628b3a7::t_a8ff69a44b7f97 1-19
+app/__init__.py
+  s_3b59c3f628b3a7::t_af2873887ca2f3 1
+app/api/errors.py
+  s_3b59c3f628b3a7::t_52fcdcee85e32d 1-18
+app/api/routes/bulk.py
+  s_3b59c3f628b3a7::t_65439a1a2dcc63 1-188
+app/clients/hospital_directory.py
+  s_3b59c3f628b3a7::t_1fe6c757026160 1-188
+app/config.py
+  s_3b59c3f628b3a7::t_19c49e916b3f05 1-46
+app/core/tasks.py
+  s_3b59c3f628b3a7::t_4fb9b2a965f913 1-41
+app/services/bulk_service.py
+  s_3b59c3f628b3a7::t_94e851e79f410b 1-306
+app/services/csv_parser.py
+  s_3b59c3f628b3a7::t_74ae68584e8389 1-174
+docker-compose.yml
+  s_3b59c3f628b3a7::t_3d20da93430a8e 1-11
+pyproject.toml
+  s_3b59c3f628b3a7::t_16cc8e9afb8384 1-17
+render.yaml
+  s_3b59c3f628b3a7::t_1e35d7d75b9e58 1-17
+requirements-dev.txt
+  s_3b59c3f628b3a7::t_0e927b8d7fc36e 1-3
+requirements.txt
+  s_3b59c3f628b3a7::t_112b3ee948b6e8 1-6
+samples/hospitals_invalid.csv
+  s_3b59c3f628b3a7::t_9cc2664eb578e5 1-7
+samples/hospitals_valid.csv
+  s_3b59c3f628b3a7::t_24b917bde16164 1-21
+scripts/benchmark.py
+  s_3b59c3f628b3a7::t_835b368b3a2c4f 1-69
+README.md
+  s_3b59c3f628b3a7::t_3c4c3bfab274af 1-299
+app/api/dependencies.py
+  s_3b59c3f628b3a7::t_f2d126a051d76f 1-30
+app/api/routes/health.py
+  s_3b59c3f628b3a7::t_9bced2ea729712 1-16
+app/api/uploads.py
+  s_3b59c3f628b3a7::t_c09f07c670cc80 1-14
+app/core/exceptions.py
+  s_3b59c3f628b3a7::t_ea6e5c282baa81 1-30
+app/core/logging.py
+  s_3b59c3f628b3a7::t_8127ceb4bed698 1-10
+app/core/retry.py
+  s_3b59c3f628b3a7::t_b7b4f975581572 1-27
+app/domain/models.py
+  s_3b59c3f628b3a7::t_44891d5fb73c01 1-121
+app/main.py
+  s_3b59c3f628b3a7::t_72e213bc54f916 1-88
+app/repositories/jobs.py
+  s_3b59c3f628b3a7::t_e91c8aca0332b1 1-49
+app/schemas/bulk.py
+  s_3b59c3f628b3a7::t_a70c05f4fe66ed 1-109
+app/services/progress.py
+  s_3b59c3f628b3a7::t_6b3d4690f8bb99 1-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dc9eb2e50dc33df95cc8658965431c30d716053d",
+  "prompts": {},
+  "sessions": {
+    "s_3b59c3f628b3a7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "43d4af2b-2cff-4d52-b844-60dc55bc6c03",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "bytebender26123 <bytebender26123@users.noreply.github.com>"
+    }
+  }
+}
