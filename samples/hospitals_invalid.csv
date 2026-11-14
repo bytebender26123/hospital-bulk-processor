@@ -1,0 +1,7 @@
+name,address,phone,beds
+City General Hospital,"12 Main St, Springfield",555-0100,120
+,45 Oak Ave,555-0101,80
+Riverside Community Hospital,,555-0102,60
+Northside Children's Hospital,9 Elm St,call reception,40
+City General Hospital,"12 Main St, Springfield",555-0100,120
+Extra Field Hospital,1 Pine St,555-0103,10,unexpected
