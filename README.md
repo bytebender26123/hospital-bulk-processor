@@ -5,7 +5,8 @@ A FastAPI service that imports hospitals from a CSV into the
 one **batch**. Hospitals are created inactive under the batch ID, and the batch is
 activated only after every row exists upstream exactly once.
 
-- **Live:** `https://<your-service>.onrender.com/docs` *(replace after deploying, see [Deployment](#deployment))*
+- **Live:** https://hospital-bulk-processor-odea.onrender.com/docs (free tier, so the first request after idling takes ~30–50 s while it wakes up)
+- **Repository:** https://github.com/bytebender26123/hospital-bulk-processor
 - **Stack:** Python 3.12, FastAPI, httpx (async), Pydantic v2, Docker, Render
 
 ---
@@ -269,6 +270,8 @@ Notes:
 - The free plan sleeps after ~15 min idle, and the first request then takes ~30–50 s.
   The upstream does the same, which is why the read timeout is 60 s.
 - Restarts and deploys clear in-memory jobs. Batches already *activated* upstream are unaffected.
+- Behind Render's proxy the WebSocket close handshake doesn't always reach the client,
+  so WebSocket clients should stop on the `finished` event rather than wait for the close.
 
 ### Docker anywhere
 ```bash
